@@ -14,28 +14,75 @@ body{
     bottom: 0;
     right: 0;
     width: 100%;
-    display: flex;
 }
 .prev_btn{
     position: absolute;
-    left: 1em;
+    left: .5em;
     font-size: 3em;
     top:40%;
     color: white;
+    z-index: 10;
 }
 .next_btn{
     position: absolute;
-    right: 1em;
+    right: .5em;
     font-size: 3em;
     top:40%;
     color: white;
+    z-index: 10;
 }
 .next_btn:hover,.prev_btn:hover{
     color: white;
 }
-.slide_one,.slide_two,.slide_three{
-    display: none;
+.slide_caption_texte{
+    position: absolute;
+    top: 35%;
+   left: 50%;
+   transform: translateX(-50%);
+
 }
+.button_slide{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+.button_slide:hover{
+    background: rgb(255, 255, 255);
+    
+}
+.button_slide:hover a{
+    color: rgb(93, 214, 140);
+}
+button a{
+    text-decoration: none;
+    color: white; 
+}
+.button_slide_get a{
+    color: rgb(73, 136, 73);
+}
+
+.button_slide_get{
+    width: 250px;
+    height: 50px;
+    background: white;
+    color: rgb(65, 139, 65);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+.button_slide_get:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+.button_slide_get:hover a{
+    color: white;
+}
+
+
 
 
 
@@ -447,7 +494,7 @@ text-decoration: none;
     } 
 }
 /** 
-  * ! STYLE MAX-WIDTH:99px
+  * ! STYLE MAX-WIDTH:999px
 **/
 @media (max-width:999px) {
     .my_nav_bar{
@@ -457,14 +504,21 @@ text-decoration: none;
     align-self: flex-start;
     margin:0 0 1em 0;
     }
+    .our_projets_images{
+        height: 100%;
+    }
+    
 }
 /** 
   * ! STYLE MAX-WIDTH:850px
 **/
 
 @media (max-width:850px) {
+    .slide_caption_texte{
+        top: 25%;
+    }
     .my_nav_bar{
-        position: fixed;
+        position: absolute;
         display: none;
         width: 100%;
         top: 0;
