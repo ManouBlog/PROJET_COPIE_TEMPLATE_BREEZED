@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my_style.css">
+    <link rel="stylesheet" href="style/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <title>BREEZED</title>
+</head>
+<body>
+
+<header class="container-fluid content_nav bg-success">
+
+    <div class="slide_show">
+                 <div class="slide_one slide_image">
+                    <img src="images_slide/slide-01.jpg" alt="">
+                 </div>
+                 <div class="slide_two  slide_image">
+                    <img src="images_slide/slide-02.jpg" alt="">
+                 </div>
+                 <div class="slide_three  slide_image">
+                    <img src="images_slide/slide-03.jpg" alt="">
+                 </div>
+                <a href="#" class="prev_btn">
+                <i class="fas fa-angle-left"></i>
+                </a>
+                <a href="#" class="next_btn">
+                    <i class="fas fa-angle-right"></i>
+                </a>
+
+    </div>
+       <div class="btn_descendre">
+            <a href="#about_us" class="text-decoration text-light"><i class="fa fa-arrow-down"></i></a>
+       </div>
+
+    <div class="recherche_modal" id="modal">
+        <div class="div_close">
+            <a href="#" class="close text-decoration-none text-light ">&times;</a>
+        </div>
+        <div class="div_input">
+         <div class="input">
+            <input type="search" placeholder="SEARCH KEYWORD(s)" name="search" id="search">
+         </div>
+            <button class=" my_btn text-light border-0 mt-3">SEARCH</button>
+        </div>
+
+    </div>
+
+    <div class="my_nav_bar d-flex justify-content-between align-items-center p-3">
+        <h1><a href="#" class="text-decoration-none text-light fw-bold">.BREEZED</a></h1>
+
+            <ul class="listes d-flex justify-content-between px-5 align-items-center " id="listes">
+                <li><a href="#" class="text-success">HOME</a></li>
+                <li><a href="#" class=" listes_menu">ABOUT</a></li>
+                <li><a href="#" class=" listes_menu ">PROJECTS</a></li>
+                <li class="dropdown_liste listes_menu"><a  class=" " href="#">DROPDOWN</a>
+                     <div class="sub_list_dropdown">
+                        <a href="#" class="fw-bold">ABOUT US</a>
+                        <a href="#"class="fw-bold">FEATURES</a>
+                        <a href="#"class="fw-bold">FAQ'S</a>
+                        <a href="#"class="fw-bold">BLOG</a>
+                     </div>                    
+                </li>
+                <li><a href="#" class=" listes_menu ">CONTACTS US</a></li>
+                <a href="#" class="recherche text-decoration-none" id="icon_search"><i class="fa fa-search"></i></a>
+            </ul>
+            <div class="barre_menu" id="barre_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>   
+</header>
+
+<main>
+    <div class=" section_about_us container-fluid" id="about_us">
+
+        <div class="row my-5">
+              <div class=" col-sm-12 col-md-6 about_us p-5 ">
+                  <p class="text-success fw-light my-5 h5">About us</p>
+                  <h1 class="my-4">NOUS TRAVAILLONS AVEC <br> LES PLUS GRANDES <br> MARQUES ET STARTUPS </h1>
+                  <div class="row">
+                        <div class="col-sm-12 col-md-6 p-3"> <span><img width="50px"  src="logo/features-icon-1.png" alt="icone"></span> <span class="fw-bold"> EXCELLENT</span></div>
+                        <div class="col-sm-12 col-md-6 p-3 "> <span><img width="50px"  src="logo/features-icon-1.png" alt="icone"></span> <span class="fw-bold"> ROBUSTE</span></div>
+                        <div class="col-sm-12 col-md-6 p-3"> <span><img width="50px" src="logo/contact-info-03.png" alt="icone"></span> <span class="fw-bold"> FIABLE</span></div>
+                        <div class="col-sm-12 col-md-6 p-3"> <span><img width="50px"  src="logo/contact-info-03.png" alt="icone"></span> <span class="fw-bold"> A JOUR</span> </div>
+                  </div>
+                <button class="my_btn my-3">Apprendre Encore Plus <i class="fa text-light fa-arrow-right"></i></button>
+              </div>
+              <div class=" col-sm-12 col-md-6  about_us_texte py-5">
+                <div class="text">
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas tenetur praesentium tempore sapiente enim, corrupti voluptatibus neque aut nobis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas tenetur praesentium tempore sapiente enim, corrupti voluptatibus neque aut nobis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas tenetur praesentium tempore sapiente enim, corrupti voluptatibus neque aut nobis!</p>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+    <section class="apprendre_plus container-fluid my-3 row">
+
+        <div class=" col-sm-12 col-md-4 travail_initial p-3">
+          <h4>Travail Initial</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad doloremque rerum sed nemo sequi voluptatem.</p>
+          <a href="#">Apprendre plus <i class="fa fa-arrow-right"></i> </a>
+        </div>
+        <div class="plan_directeur col-sm-12 col-md-4 p-3">
+            <h4>plan Directeur</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad doloremque rerum sed nemo sequi voluptatem.</p>
+            <a href="#">Apprendre plus <i class="fa fa-arrow-right"></i> </a>
+          </div>
+          <div class="execution_fluide col-sm-12 col-md-4 p-3">
+            <h4>Execution fluide</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad doloremque rerum sed nemo sequi voluptatem.</p>
+            <a href="#">Apprendre plus<i class="fa fa-arrow-right"></i> </a>
+          </div>
+
+    </section>
+
+    <section class="container-fluid subscrire my-5 py-5">
+        <h5 class="text-center text-light fw-light">SUBSCRIRE NEWSLETTER</h5>
+        <h2 class="text-center fw-bold text-light">Don't miss this chance!</h2>
+        <p class="text-center fw-light text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sunt. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam.</p>
+        <div class="input_formulaire">
+            <input type="email" placeholder="Enter votre Email..." name="email" id="email">
+            <button class=" fw-light subscrire_now">SUBSCRIRE NOW</button>
+        </div>
+
+    </section>
+
+    <section class="d-flex justify-content-between our_projets container-fluid my-5">
+             <div class="our_projets_text p-3">
+                 <h5 class="text-success">OUR PROJECTS</h5>
+                 <h1 class="fw-bold mt-3 mb-5">Some of our <br> Latest Projects</h1>
+                 <a href="#" class=" fw-bold">ALL</a>
+                 <a href="#" class=" fw-bold">WEB DESIGN</a>
+                 <a href="#" class=" fw-bold">WEB DEVELOPPMENT</a>
+                 <a href="#" class=" fw-bold">GRAPHICS</a>
+                 <a href="#" class="fw-bold">ARTWORKS</a>
+             </div>
+             <div class="our_projets_images row gy-3 gx-3 ">
+            
+                     <div class="image col-sm-12 col-md-4">
+                         <img class="image-fluid" src="images/Screenshot_20210926-203310.jpg" alt="projet">
+                     </div>
+                     <div class="image col-sm-12 col-md-4">
+                        <img class="image-fluid" src="images/PSX_20210903_114634.jpg" alt="projet">
+                     </div>
+                     <div class="image col-sm-12 col-md-4">
+                        <img class="image-fluid" src="images/Screenshot_20210926-203131.jpg" alt="projet">
+                     </div>
+                     <div class="image col-sm-12 col-md-4">
+                        <img class="image-fluid" src="images/adjobi.jpg" alt="projet">
+                     </div>
+                     <div class="image col-sm-12 col-md-4">
+                        <img class="image-fluid" src="images/adjobi.jpg" alt="projet">
+                     </div>
+                     <div class="image col-sm-12 col-md-4">
+                        <img class="image-fluid" src="images/adjobi.jpg" alt="projet">
+                     </div>
+                 </div>
+
+    </section>
+    <section class="digital_team container-fluid my-5">
+       <h5 class="text-center text-light fw-light">DIGITAL TEAM</h5>
+       <h1 class="text-center text-light fw-bold">Young and talented members</h1>
+       <div class="container bg-warning row">
+           
+       </div>
+    </section>
+
+    <section class="container-fluid contacts_us d-flex p-0 p-md-5 align-items-center">
+                <div class="contacts_us_texte px-1 px-md-3">
+
+                <h5 class="text-success fw-bold">CONTACTS US</h5>
+                <h1>Feel Free to Keep in <br> touch with us!</h1>
+                <div class="my-4">
+                    <span><img src="logo/contact-info-01.png" alt="icon"></span> <span class="fw-bold mx-3">010-020-0860</span>
+                </div>
+                <div>
+                    <span><img src="logo/contact-info-02.png" alt="icon"></span> <span class="fw-bold mx-3">Info@company.com</span>
+                </div>
+                <div class="my-4">
+                    <span><img src="logo/contact-info-03.png" alt="icon"></span> <span class="fw-bold mx-3">www.company.com</span>
+                </div>
+
+                </div>
+                
+                <div class="contacts_us_formulaire">
+                    <div>
+                        <input placeholder="Your Name *" type="text" name="name" id="name">
+                        <input placeholder="Your phone"  type="text" name="numero" id="phone">
+                    </div>
+                    <div>
+                        <input placeholder="Your Email *"  type="email" name="email" id="email">
+                        <input placeholder="Subject" type="text" name="sujet" id="sujet">
+                    </div>
+                    <textarea placeholder="Message" name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <div>
+                        <button class="my_button">send Mesage Now <i class="fa fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+    </section>
+</main>
+
+<footer class="d-flex justify-content-between my_footer">
+    <p class="text-light fw-light">Copyright © 2020 Breezed Co., Ltd. - Design: TemplateMo</p>
+    <div class="logo">
+        <span >FOLLOW US</span>
+        <span class="my_logo">
+            <a href="https://facebook.com"><img width="30px" src="logo/facebook-logo.png" alt="facebook"></a></span>
+        <span class="my_logo" >
+            <a href="https://twitter.com">
+                <img width="30px"  src="logo/twitter.png" alt="twitter">
+            </a>
+        </span>
+        <span class="my_logo">
+            <a href="https://linkedin.com">
+                <img width="30px" src="logo/linkedin.png" alt="linkedin">
+            </a>
+        </span>
+        <span class="my_logo">
+            <a href="https://dribbble.com">
+                <img width="30px" src="logo/dribbble.png" alt="dribbble">
+            </a>
+        </span>
+    </div>
+</footer>
+  
+
+<script src="java.js"></script>
+</body>
+</html>
