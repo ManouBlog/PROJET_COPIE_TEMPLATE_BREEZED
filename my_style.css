@@ -501,6 +501,9 @@ text-decoration: none;
     .our_projets .our_projets_text a{
         display: inline-block;
     } 
+    .content_nav{
+        height: 100vh;
+    }
 }
 /** 
   * ! STYLE MAX-WIDTH:999px
@@ -524,7 +527,7 @@ text-decoration: none;
 
 @media (max-width:850px) {
     .content_nav {
-        height: 130vh;
+        height: 100vh;
         background: white;
     }
     .slide_caption_texte{
