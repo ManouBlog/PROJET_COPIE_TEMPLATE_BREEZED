@@ -514,6 +514,9 @@ text-decoration: none;
 **/
 
 @media (max-width:850px) {
+    .content_nav {
+        height: 100vh;
+    }
     .slide_caption_texte{
         top: 25%;
     }
@@ -528,23 +531,22 @@ text-decoration: none;
         display: block;
         position: absolute;
         right: 1em;
-        top: 1.5em;
+        top: 1.3em;
         transition: 0.6s ease;
     }
     .listes{
         flex-direction: column;
         background: white;
         width:80%;
-        transform: translateY(-150%);
-        opacity: 0;
+        position: absolute;
+        top: -800%;
     }
     ul li a{
         color: black;
         font-weight: bold;
     }
     .show_listes{
-        transform: translateY(0);
-        opacity: 1;
+        top: 100px;
         transition: 0.9s ease-in-out ;
     }
     .show_close span:nth-child(2){
